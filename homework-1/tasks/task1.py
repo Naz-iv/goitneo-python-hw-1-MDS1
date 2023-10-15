@@ -65,16 +65,3 @@ def get_birthdays_per_week(colleagues: list) -> None:
             birthdays_this_week[validate[0]] += [validate[1]]
 
     birthdays_reminder_colleague_output(birthdays_this_week)
-
-
-data = [
-    {"name": "Mel Gates", "birthday": datetime(1955, 10, 18)},
-    {"name": "Bill Gates", "birthday": datetime(1955, 10, 22)},
-    {"name": "Jobs Steave", "birthday": datetime(1955, 10, 21)},
-    {"name": "Jobs Count", "birthday": datetime(1955, 10, 16)},
-    {"name": "Will Smith", "birthday": datetime(1955, 10, 20)},
-    {"name": "Small Smith", "birthday": datetime(1955, 10, 23)},
-    {"name": "Joe Budun", "birthday": datetime(1955, 10, 18)}
-]
-
-get_birthdays_per_week(data)
